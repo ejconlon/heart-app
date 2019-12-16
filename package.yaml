@@ -12,18 +12,14 @@ extra-source-files:
 description: Please see the README on GitHub at <https://github.com/ejconlon/heart-app#readme>
 
 dependencies:
-- base >= 4.12 && < 5
-# - bytestring
-# - containers
-# - free
-# - hashable
-# - lens
-# - mtl
-# - template-haskell
-# - text
-# - transformers
-# - unordered-containers
-# - vector
+- base >=4.12 && <5
+- heart-core >=0.1
+- co-log >=0.3
+- co-log-core >=0.2
+- ekg >=0.4
+- ekg-core >=0.1
+- ekg-statsd >=0.2
+- text >=1.2
 
 default-extensions:
   - ConstraintKinds
@@ -32,6 +28,7 @@ default-extensions:
   - DeriveFoldable
   - DeriveGeneric
   - DeriveTraversable
+  - DerivingStrategies
   - FlexibleContexts
   - FlexibleInstances
   - FunctionalDependencies
@@ -44,6 +41,7 @@ default-extensions:
   - NoImplicitPrelude
   - OverloadedStrings
   - Rank2Types
+  - StandaloneDeriving
   - TemplateHaskell
   - TupleSections
   - TypeApplications
@@ -61,28 +59,3 @@ ghc-options:
 
 library:
   source-dirs: src
-
-executables:
-  heart-app-exe:
-    main:                Main.hs
-    source-dirs:         app
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - heart-app
-
-tests:
-  heart-app-test:
-    main:                Tasty.hs
-    source-dirs:         test
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - heart-app
-    - tasty
-    - tasty-discover
-    - tasty-hunit
