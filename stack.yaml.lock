@@ -5,22 +5,22 @@
 
 packages:
 - completed:
-    size: 8931
-    url: https://github.com/ejconlon/heart-core/archive/d4287e65392ac498f750450275a755dc80d7427d.tar.gz
+    size: 9017
+    url: https://github.com/ejconlon/heart-core/archive/a25b3bc4260e867361903264744fd81420c7dad4.tar.gz
     cabal-file:
       size: 2074
       sha256: b01c60a360018841c92c624cfbaee605fc08ffc1435c89ff130eeab08a4a808a
     name: heart-core
     version: 0.1.0
-    sha256: ebdccc934ee4dd4c41379b7b77d72dc926450897549c4bc104b620ee1a063b4f
+    sha256: cc60a1822ee8bffd7663f290c82674f728fbae15aa4f2453a999c04bf1cb416e
     pantry-tree:
-      size: 1291
-      sha256: 27784034791b11e2327c05022733e0d79f13e07fe120635d06568280a4027bf6
+      size: 1342
+      sha256: 32ca2eca61c7af8c1936a5d2154eb060f5451c33d3aa7c36eb038afca40c80a2
   original:
-    url: https://github.com/ejconlon/heart-core/archive/d4287e65392ac498f750450275a755dc80d7427d.tar.gz
+    url: https://github.com/ejconlon/heart-core/archive/a25b3bc4260e867361903264744fd81420c7dad4.tar.gz
 snapshots:
 - completed:
-    size: 524155
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/14/19.yaml
-    sha256: 9f79f6494473c9b46911364b94c4b5ef19ca8d35ebf62e46697cf651f198ee19
-  original: lts-14.19
+    size: 524154
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/14/20.yaml
+    sha256: 2f5099f69ddb6abfe64400fe1e6a604e8e628f55e6837211cd70a81eb0a8fa4d
+  original: lts-14.20

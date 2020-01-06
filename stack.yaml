@@ -1,8 +1,8 @@
-resolver: lts-14.19
+resolver: lts-14.20
 
 packages:
 - .
 
 extra-deps:
 - github: ejconlon/heart-core
-  commit: d4287e65392ac498f750450275a755dc80d7427d
+  commit: a25b3bc4260e867361903264744fd81420c7dad4
