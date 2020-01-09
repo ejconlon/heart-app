@@ -5,6 +5,8 @@ license:             BSD3
 author:              "Eric Conlon"
 maintainer:          "ejconlon@gmail.com"
 copyright:           "(c) 2019 Eric Conlon"
+category:            Prelude
+synopsis:            An opinionated app prelude and framework in the UnliftIO style
 
 extra-source-files:
 - README.md

@@ -5,19 +5,12 @@
 
 packages:
 - completed:
-    size: 9017
-    url: https://github.com/ejconlon/heart-core/archive/a25b3bc4260e867361903264744fd81420c7dad4.tar.gz
-    cabal-file:
-      size: 2074
-      sha256: b01c60a360018841c92c624cfbaee605fc08ffc1435c89ff130eeab08a4a808a
-    name: heart-core
-    version: 0.1.0
-    sha256: cc60a1822ee8bffd7663f290c82674f728fbae15aa4f2453a999c04bf1cb416e
+    hackage: heart-core-0.1.0@sha256:b6a636945681716a4d7c126cbd5232e76cb7046ab0e8faf666e20dfde0242285,2167
     pantry-tree:
-      size: 1342
-      sha256: 32ca2eca61c7af8c1936a5d2154eb060f5451c33d3aa7c36eb038afca40c80a2
+      size: 811
+      sha256: 21bdfeaefabb4f7fd12c8b55bf7d1dddf8d15fb8292cb8df903cdff65bc90e1c
   original:
-    url: https://github.com/ejconlon/heart-core/archive/a25b3bc4260e867361903264744fd81420c7dad4.tar.gz
+    hackage: heart-core-0.1.0
 snapshots:
 - completed:
     size: 524154

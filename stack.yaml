@@ -4,5 +4,4 @@ packages:
 - .
 
 extra-deps:
-- github: ejconlon/heart-core
-  commit: a25b3bc4260e867361903264744fd81420c7dad4
+- heart-core-0.1.0
