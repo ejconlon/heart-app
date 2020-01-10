@@ -5,12 +5,12 @@
 
 packages:
 - completed:
-    hackage: heart-core-0.1.0@sha256:b6a636945681716a4d7c126cbd5232e76cb7046ab0e8faf666e20dfde0242285,2167
+    hackage: heart-core-0.1.1@sha256:d95495760448378924296532d57562f6e54e262528878ba545e3440ecbf16d90,1949
     pantry-tree:
       size: 811
-      sha256: 21bdfeaefabb4f7fd12c8b55bf7d1dddf8d15fb8292cb8df903cdff65bc90e1c
+      sha256: 87d58b248f1cadf917752b3cf0f43640d114ac6714411091b4f3b3b9dfa98425
   original:
-    hackage: heart-core-0.1.0
+    hackage: heart-core-0.1.1
 snapshots:
 - completed:
     size: 524154

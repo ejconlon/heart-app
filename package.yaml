@@ -1,5 +1,5 @@
 name:                heart-app
-version:             0.1.0
+version:             0.1.1
 github:              "ejconlon/heart-app"
 license:             BSD3
 author:              "Eric Conlon"
@@ -15,7 +15,7 @@ description: Please see the README on GitHub at <https://github.com/ejconlon/hea
 
 dependencies:
 - base >=4.12 && <5
-- heart-core >=0.1
+- heart-core >=0.1.1
 - co-log >=0.3
 - co-log-core >=0.2
 - ekg >=0.4
